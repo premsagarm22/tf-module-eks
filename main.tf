@@ -7,3 +7,4 @@ resource "aws_eks_cluster" "eks" {
     subnet_ids = var.PRIVATE_SUBNET_IDS
   }
 
+}
